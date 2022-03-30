@@ -1,7 +1,7 @@
 Dairy
 =====
 
-Simple Dairy Record Management System built with vanilla php as a Pro-Bono Project for a college student
+Simple Dairy Record Management System built with vanilla php as a MOUNT KENYA UNIVERSITY Project for a university student
 
 ## Features 
 * Manage farmers
@@ -41,17 +41,17 @@ define ('PAGE_URL', 'http://localhost/Dairy/');
 
 ## Demo Accounts
 ### 1. Manager
-email: manager@example.com
+email: vinny001@gmail.com
 
-password: manager123
+password: test123
 ### 2. Supervisor
-email: supervisor@example.com
+email: vinny@gmail.com
 
-password: supervisor123
+password: test123
 ### 3. Clerk
-email: clerk@example.com
+email: vinny1@gmail.com
 
-password: clerk123 
+password: test123
  
 
 
