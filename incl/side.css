@@ -1,0 +1,111 @@
+
+.ts-sidebar::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .ts-sidebar::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
+  }
+  .ts-sidebar::-webkit-scrollbar-thumb {
+    background-color: #b4b4b4;
+  }
+  .ts-sidebar {
+    background: rgb(76, 10, 199);
+    max-height: 0;
+    transition: max-height 0.3s;
+    overflow: hidden;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    bottom: 0;
+    top: 60px;
+    overflow-y: auto;
+  }
+  .ts-sidebar .hidden-side {
+    display: none;
+  }
+  .ts-sidebar .ts-sidebar-search {
+    width: 100%;
+    background: #25292a;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+  }
+  @media only screen and (min-width: 992px) {
+    .ts-sidebar .ts-profile-nav {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .ts-sidebar {
+      max-height: 100%;
+      bottom: 0;
+    }
+  }
+  .ts-sidebar-menu .ts-label {
+    color: #585c64;
+    font-weight: bold;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-top: 10px;
+  }
+  .ts-sidebar-menu a {
+    display: block;
+    text-decoration: none;
+    padding: 12px 15px;
+    color: #fff;
+  }
+  .ts-sidebar-menu li {
+    position: relative;
+  }
+  .ts-sidebar-menu li i {
+    color: #585c64;
+    margin-right: 10px;
+  }
+  .ts-sidebar-menu li ul {
+    display: block;
+    background: rgba(255, 0, 0, 0.12);
+    background: rgba(0, 0, 0, 0.32);
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .menu-open,
+  .ts-sidebar-menu .open > ul {
+    max-height: 2000px;
+  }
+  .ts-sidebar-menu .open > a {
+    background: rgba(51, 56, 62, 0.35);
+  }
+  .ts-sidebar-menu > .open > a {
+    background: #33383e;
+    border-left: 3px solid #37a6c4;
+  }
+  .ts-sidebar-menu .open > .more i {
+    transform: rotate(180deg);
+  }
+  .more i {
+    color: #fff;
+    padding: 15px;
+    transition: transform 0.3s;
+  }
+  .more {
+    float: right;
+    min-width: 10%;
+    cursor: pointer;
+  }
+  .ts-main-content .content-wrapper {
+    padding-top: 15px;
+    margin-top: 60px;
+  }
+  @media only screen and (min-width: 992px) {
+    .ts-main-content .ts-sidebar {
+      width: 250px;
+      float: left;
+    }
+    .ts-main-content .content-wrapper {
+      margin-left: 250px;
+    }
+  }
