@@ -63,14 +63,12 @@ CREATE TABLE `employees` (
 
 --
 -- Dumping data for table `employees`
---
-
 INSERT INTO `employees` (`id`, `e_name`, `e_mail`, `e_pass`, `e_role`, `e_payroll_no`) VALUES
-(3, 'ken', 'ken@gmail.com', 'd6172cee82aa0cd1e610aacab528f240', 'Supervisor', ''),
-(10, 'vincent vinny', 'vinnnyuser@gmail.com', '52fee26031644aacd7c23ade329939f0', 'Manager', '7777'),
-(11, 'name', 'name@gmail.com', '5f25b6a0b984f370afd14aebc3140226', 'Supervisor', '1234564567');
-
--- --------------------------------------------------------
+(3, 'vinny', 'vinny@gmail.com', 'cc03e747a6afbbcbf8be7668acfebee5', 'Supervisor', '1234567'),
+(10, 'vinny1', 'vinny1@gmail.com', 'cc03e747a6afbbcbf8be7668acfebee5', 'Clerk', ''),
+(11, 'name', 'name@gmail.com', '5f25b6a0b984f370afd14aebc3140226', 'Supervisor', '1234564567'),
+(3890, 'vinny001', 'vinny001@gmail.com', 'cc03e747a6afbbcbf8be7668acfebee5', 'Manager', '123456');
+--------------------------------------------------
 
 --
 -- Table structure for table `farmers`
